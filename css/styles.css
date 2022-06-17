@@ -32,11 +32,12 @@ body {
 .list-force {
     list-style-type: none;
 }
-.list-force :hover {
-    color:var(--accent-color);
-}
+.list-force :hover,
 .list-force :focus {
     color: var(--accent-color);
+}
+.list-img {
+    text-decoration: none;
 }
 .header {
     background-color: var(--primary-background-color);
@@ -45,17 +46,13 @@ body {
     letter-spacing: 0.02em;
     
 }
-.studio {
+.site-nav .link {
     color: var(--secondary-text-color);
     text-decoration: none;
 }
-.portfolio {
-    color: var(--secondary-text-color);
-    text-decoration: none;
-}
-.contacts {
-    color: var(--secondary-text-color);
-    text-decoration: none;
+.site-nav .link:hover,
+.site-nav .link:focus {    
+    color: var(--accent-color);
 }
 .mail-header {
     color: var(--secondary-text-color);
@@ -108,7 +105,8 @@ body {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: var(--secondary-text-color);}
+    color: var(--secondary-text-color);
+}
 .section4 {
     background-color: var(--secondary-background-color);
 }
@@ -172,6 +170,7 @@ body {
     letter-spacing: 0.06em; 
     color: var(--secondary-text-color);
 }
+
 .description2 {
     font-weight: 400;
     font-size: 16px;
@@ -192,7 +191,28 @@ body {
     background-color: var(--accent-color);
     color: var(--third-text-color);
 }
-
+.control {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    list-style-type: none;
+    color: var(--secondary-text-color);
+}
+.gallery .list-img {
+    text-decoration: none;
+}
+.gallery .description2,
+.gallery .lorem {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.gallery-item {
+    list-style-type: none;
+}
 
     
 

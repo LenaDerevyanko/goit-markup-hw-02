@@ -16,13 +16,13 @@
 <body>
     <!-- Шапка сайта -->
     <header class="header">
-        <nav>
+        <nav class="site-nav">
             <a href="./index.html" class="logo">Web<span class="accent-header">Studio</span></a>
             <ul class="list-force">
-                <li><a href="./index.html" class="studio">Студия</a></li>
-                <li><a href="./portfolio.html" class="portfolio">Портфолио</a></li>
-                <li><a href="" class="contacts">Контакты</a></li>
-    
+                <li><a href="./index.html" class="link">Студия</a></li>
+                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                <li><a href="" class="link">Контакты</a></li>
+        
             </ul>
         </nav>
         <ul class="list-force">
@@ -32,70 +32,90 @@
     
     </header>
     <main>
-        <h1 hidden>Список радиокнопок</h1>
-        <ul class="list">
-            <li><button class="button2" type="button">Все</button></li>
-            <li><button class="button2" type="button">Веб-сайты</button></li>
-            <li><button class="button2" type="button">Приложения</button></li>
-            <li><button class="button2" type="button">Дизайн</button></li>
-            <li><button class="button2" type="button">Маркетинг</button></li>
-        </ul>
-        <ul class="list">
-            <li>
-                <img src="./images/portfoliofoto/note1.jpg" alt="ноутбук с портфолио" width="370">
-                <h2 class="projects">Технокряк</h2>
-                <p class="description2">Веб-сайт</p>
-                <p></p>
-            </li>
-            <li>
-                <img src="./images/portfoliofoto/basketball.jpg" alt="баскетбол" width="370">
-                <h2 class="projects">Постер New Orlean vs Golden Star</h2>
-                <p class="description2">Дизайн</p>
-                <p></p>
-            </li>
-            <li>
-                <img src="./images/portfoliofoto/seafood.jpg" alt="логотип рыбного ресторана" width="370">
-                <h2 class="projects">Ресторан Seafood</h2>
-                <p class="description2">Приложение</p>
-                <p></p>
-            </li>
-            <li>
-                <img src="./images/portfoliofoto/headphones.jpg" alt="наушники" width="370">
-                <h2 class="projects">Проект Prime</h2>
-                <p class="description2">Маркетинг</p>
-                <p></p>
-            </li>
-            <li>
-                <img src="./images/portfoliofoto/box.jpg" alt="коробка" width="370">
-                <h2 class="projects">Проект Boxes</h2>
-                <p class="description2">Приложение</p>
-                <p></p>
-            </li>
-            <li>
-                <img src="./images/portfoliofoto/monitor.jpg" alt="монитор" width="370">
-                <h2 class="projects">Inspiration has no Borders</h2>
-                <p class="description2">Веб-сайт</p>
-                <p></p>
-            </li>
-            <li>
-                <img src="./images/portfoliofoto/press.jpg" alt="журнал" width="370">
-                <h2 class="projects">Издание Limited Edition</h2>
-                <p class="description2">Дизайн</p>
-                <p></p>
-            </li>
-            <li>
-                <img src="./images/portfoliofoto/target.jpg" alt="таргета" width="370">
-                <h2 class="projects">Проект LAB</h2>
-                <p class="description2">Маркетинг</p>
-                <p></p>
-            </li>
-            <li>
-                <img src="./images/portfoliofoto/note2.jpg" alt="работа на" width="370">
-                <h2 class="projects">Growing Business</h2>
-                <p class="description2">Приложение</p>
-                <p></p>
-            </li>
-        </ul>
+        <section class="section-portfolio">
+            <h1 hidden>Список радиокнопок</h1>
+            <ul class="control">
+                <li><button class="button2" type="button">Все</button></li>
+                <li><button class="button2" type="button">Веб-сайты</button></li>
+                <li><button class="button2" type="button">Приложения</button></li>
+                <li><button class="button2" type="button">Дизайн</button></li>
+                <li><button class="button2" type="button">Маркетинг</button></li>
+            </ul>
+            <ul class="gallery">
+                <li class="gallery-item">
+                    <a href="" class="list-img">
+                    <img src="./images/portfoliofoto/note1.jpg" alt="ноутбук с портфолио" width="370">
+                    <h2 class="projects">Технокряк</h2>
+                    <p class="description2">Веб-сайт</p>
+                    <p class="lorem">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для шпионажа и атак на защищённые сервера конкурентов.</p>
+                    </a>
+                </li>
+                <li class="gallery-item">
+                    <a href="" class="list-img"><img src="./images/portfoliofoto/basketball.jpg" alt="баскетбол" width="370">
+                    <h2 class="projects">Постер New Orlean vs Golden Star</h2>
+                    <p class="description2">Дизайн</p>
+                    <p class="lorem">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для шпионажа и
+                    атак на защищённые сервера конкурентов.</p>
+                    </a>
+                </li>
+                <li class="gallery-item">
+                    <a href="" class="list-img"><img src="./images/portfoliofoto/seafood.jpg" alt="логотип рыбного ресторана" width="370">
+                    <h2 class="projects">Ресторан Seafood</h2>
+                    <p class="description2">Приложение</p>
+                    <p class="lorem">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для шпионажа и
+                    атак на защищённые сервера конкурентов.</p>
+                    </a>
+                </li>
+                <li class="gallery-item">
+                    <a href="" class="list-img"><img src="./images/portfoliofoto/headphones.jpg" alt="наушники" width="370">
+                    <h2 class="projects">Проект Prime</h2>
+                    <p class="description2">Маркетинг</p>
+                    <p class="lorem">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для шпионажа и
+                    атак на защищённые сервера конкурентов.</p>
+                    </a>
+                </li>
+                <li class="gallery-item">
+                    <a href="" class="list-img"><img src="./images/portfoliofoto/box.jpg" alt="коробка" width="370">
+                    <h2 class="projects">Проект Boxes</h2>
+                    <p class="description2">Приложение</p>
+                    <p class="lorem">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для шпионажа и
+                    атак на защищённые сервера конкурентов.</p>
+                    </a>
+                 </li>
+                 <li class="gallery-item">
+                    <a href="" class="list-img"><img src="./images/portfoliofoto/monitor.jpg" alt="монитор" width="370">
+                    <h2 class="projects">Inspiration has no Borders</h2>
+                    <p class="description2">Веб-сайт</p>
+                    <p class="lorem">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для шпионажа и
+                    атак на защищённые сервера конкурентов.</p>
+                    </a>
+                </li>
+                <li class="gallery-item">
+                    <a href="" class="list-img"><img src="./images/portfoliofoto/press.jpg" alt="журнал" width="370">
+                    <h2 class="projects">Издание Limited Edition</h2>
+                    <p class="description2">Дизайн</p>
+                    <p class="lorem">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для шпионажа и
+                    атак на защищённые сервера конкурентов.</p>
+                    </a>
+                </li>
+                <li class="gallery-item">
+                    <a href="" class="list-img"><img src="./images/portfoliofoto/target.jpg" alt="таргета" width="370">
+                    <h2 class="projects">Проект LAB</h2>
+                    <p class="description2">Маркетинг</p>
+                    <p class="lorem">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для шпионажа и
+                    атак на защищённые сервера конкурентов.</p>
+                    </a>
+                </li>
+                <li class="gallery-item">
+                    <a href="" class="list-img"><img src="./images/portfoliofoto/note2.jpg" alt="работа на" width="370">
+                    <h2 class="projects">Growing Business</h2>
+                    <p class="description2">Приложение</p>
+                    <p class="lorem">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для шпионажа и
+                    атак на защищённые сервера конкурентов.</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
 
     </main>
     <footer class="footer">
