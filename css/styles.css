@@ -133,6 +133,7 @@ body {
     line-height: 1.71;
     color: var(--third-text-color);   
     text-decoration: none;
+    font-style: normal;
 }
 .address:hover {
     color:var(--accent-color);
@@ -145,6 +146,7 @@ body {
     line-height: 1.71;
     color: var(--fours-text-color);
     text-decoration: none;
+    font-style: normal;
 }
 .mail-footer:hover {
     color: var(--accent-color);
@@ -156,7 +158,7 @@ body {
     line-height: 1.71;
     color: var(--fours-text-color);
     text-decoration: none;
-}
+    font-style: normal;}
 .tel-footer:hover {
     color: var(--accent-color);
 }
